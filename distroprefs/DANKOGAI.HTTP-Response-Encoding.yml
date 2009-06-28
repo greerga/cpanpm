@@ -1,0 +1,6 @@
+---
+comment: "http://rt.cpan.org/Ticket/Display.html?id=47033"
+match:
+  distribution: "^DANKOGAI/HTTP-Response-Encoding-0.05.tar.gz$"
+patches:
+  - "ANDK/patches/HTTP-Response-Encoding-0.05-DANKOGAI-47033.patch"
