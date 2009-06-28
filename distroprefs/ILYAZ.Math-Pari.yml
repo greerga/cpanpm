@@ -25,4 +25,4 @@ match:
   distribution: "^ILYAZ/modules/Math-Pari-2.01080"
 pl: 
   args: 
-    - pari_tgz=/home/src/perl/math-pari-megrez/pari-2.1.7.tgz
+    - pari_tgz=/home/perl/extra/pari-2.1.7.tgz
