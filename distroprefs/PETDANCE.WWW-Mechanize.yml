@@ -1,3 +1,13 @@
+--- 
+comment: |
+
+  If test dies before $pid404 is set, Perl's kill is called with undef (=0 to OS)
+  and kills entire process group (i.e., the smoker)
+
+match:
+  distribution: "^PETDANCE/WWW-Mechanize-1.54.tar.gz$"
+patches:
+  - ANDK/patches/WWW-Mechanize-1.54-PETDANCE-01.patch
 ---
 comment: |
 
